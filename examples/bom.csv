@@ -1,0 +1,5 @@
+Reference,Value,Footprint,MPN,Quantity,DNP
+"R1,R2",10k,R_0603,RES-10K-0603,2,
+R3,10k,R_0603,RES-10K-0603,1,
+U1,Example regulator,SOT-223,REG-DEMO-33,1,
+J1,Optional header,PinHeader,,1,DNP

@@ -1,0 +1,13 @@
+{
+  "name": "kicad-stock-bridge",
+  "version": "0.1.0",
+  "description": "Read-only KiCad BOM to local inventory shortage planning bridge",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "bin": { "kicad-stock-bridge": "src/cli.mjs" },
+  "exports": "./src/index.mjs",
+  "scripts": { "test": "node --test", "demo": "node src/cli.mjs --bom examples/bom.csv --stock examples/stock.csv --boards 3 --spares 1" },
+  "dependencies": { "csv-parse": "7.0.3", "csv-stringify": "6.9.0" },
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/DrEli7/kicad-stock-bridge.git" }
+}
